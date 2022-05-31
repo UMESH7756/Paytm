@@ -73,5 +73,9 @@ public static void main(String[] args) throws InterruptedException {
 //	 stockpage.clickOnMutualfundTab(driver);   
 //	 Thread.sleep(3000);        
 //	 stockpage.clickOnMutualfundTab1(driver);
+	
+	 int xyz;
+	 int d;
+	
 }
 }
