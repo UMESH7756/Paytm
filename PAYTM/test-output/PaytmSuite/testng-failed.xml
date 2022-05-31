@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [PaytmSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Chrome(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="PAY.VerifyPostpaidAndPraipadButtonNG">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="browserClose"/>
+          <include name="objectOfPomClasses"/>
+          <include name="verifyRechargeModuleTab"/>
+          <include name="ClickOnApplication"/>
+          <include name="closeBrowser"/>
+          <include name="verifyRechargeMudulePrepaiProceeddButton"/>
+          <include name="logOutFromApplication"/>
+        </methods>
+      </class> <!-- PAY.VerifyPostpaidAndPraipadButtonNG -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [PaytmSuite] -->
